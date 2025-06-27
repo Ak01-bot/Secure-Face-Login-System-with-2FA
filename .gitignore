@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+
+# Bytecode cache
+__pycache__/
+*.pyc
+
+# SQLite DB & temp files
+*.db
+*.npy
+temp/
+database/
+
+# Face data & private keys
+static/registered_faces/
+*.jpg
+*.png
+*.pem
+*.key
+secret.key
+
+# VSCode or IDE-specific settings (optional)
+.vscode/
+.idea/

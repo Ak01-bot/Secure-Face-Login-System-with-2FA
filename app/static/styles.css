@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .password-login,
+  .face-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 200px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .remember {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .separator {
+    font-weight: bold;
+    align-self: center;
+    padding: 0 10px;
+    font-size: 18px;
+  }
+  
+  .face-circle {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #4CAF50;
+    border-radius: 50%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .face-circle img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+
+  body {
+    background-color: lightblue;
+  }
+  
+  

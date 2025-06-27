@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e3f2fd;
+            font-family: 'Poppins', sans-serif;
+        }
+        .dashboard-container {
+            max-width: 700px;
+            margin: 80px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .dashboard-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            color: #0d47a1;
+            margin-bottom: 30px;
+        }
+        .welcome-message {
+            font-size: 20px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .btn-logout {
+            background-color: #d32f2f;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 25px;
+        }
+        .btn-logout:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-title">Welcome to Your Dashboard</div>
+
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <!-- Content -->
+        <p class="welcome-message">Hello, <strong>{{ username }}</strong> 👋</p>
+        <p>This is your secure dashboard. You can extend this section to show user stats, options, or reports.</p>
+
+        <!-- Logout Button -->
+        <div class="text-end mt-4">
+            <a href="{{ url_for('main.logout') }}" class="btn btn-logout">Logout</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

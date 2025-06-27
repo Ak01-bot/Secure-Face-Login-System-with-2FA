@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Face Recognition Login</title>
+  <link rel="stylesheet" href="static/styles.css">
+
+</head>
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+  <div class="container" style="display: flex; height:100vh; justify-content: center; align-items: center;">
+    <div class="login-box">
+      <div class="password-login">
+        <h2>Password Login</h2>
+        <form method="POST" action="{{ url_for('main.login') }}">
+          <input type="text" name="username" placeholder="Username" required><br>
+          <input type="password" name="password" placeholder="Password" required><br>
+          <label class="remember">
+            <input type="checkbox" name="remember"> Remember me
+          </label><br>
+          <button type="submit">Login</button>
+          <p>Don't have an account? <a href="{{ url_for('main.register') }}">Register Here</a></p>
+        </form>
+      </div>
+
+      <div class="separator">OR</div>
+
+        <div class="face-login">
+          <h2>Login with your Face</h2>
+          <div class="face-circle">
+          <img src="{{ url_for('static', filename='face_recognition_1.webp') }}" alt="Face Icon">
+        </div>
+        <form method="POST" action="/login" enctype="multipart/form-data">
+          <button type="submit">Login with Face</button>
+        </form>               
+    </div>
+  </div>
+</body>
+</html>

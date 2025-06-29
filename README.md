@@ -218,20 +218,22 @@ Built for academic + practical learning use.
 
 ### 🔐 Login Page
 
-![1751003040055](image/README/1751003040055.png)
+![Login Page](image/README/login%20Page.png "first pic")
 
-### ✅ Registration view
+### ✅ Registration View
 
-![1751003060121](image/README/1751003060121.png)
+![Registration View](image/README/registration%20interface.png "second pic")
 
-### 📤 OTP Verification
+### 📩 OTP Verification
 
-![1751003075203](image/README/1751003075203.png)
+![OTP Verification](image/README/OTP%20verification%20page.png "third pic")
 
 ### ✅ Dashboard View
 
-![1751003085496](image/README/1751003085496.png)
+![Dashboard View](image/README/Dashboard%20view.png "fourth pic")
 
 ## 📄 License
+
+Made by Akash.
 
 MIT License – use freely with attribution.

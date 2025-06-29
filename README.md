@@ -218,19 +218,19 @@ Built for academic + practical learning use.
 
 ### 🔐 Login Page
 
-![Login Page](images/login%20Page.png "first pic")
+![Login Page](images/login_Page.png "first pic")
 
 ### ✅ Registration View
 
-![Registration View](images/registration%20interface.png "second pic")
+![Registration View](images/registration_interface.png "second pic")
 
 ### 📩 OTP Verification
 
-![OTP Verification](images/OTP%20verification%20page.png "third pic")
+![OTP Verification](images/OTP_verification_page.png "third pic")
 
 ### ✅ Dashboard View
 
-![Dashboard View](images/Dashboard%20view.png "fourth pic")
+![Dashboard View](images/Dashboard_view.png "fourth pic")
 
 ## 📄 License
 

@@ -216,24 +216,22 @@ Built for academic + practical learning use.
 
 ## Snapshots
 
-### 🔐 Login Page
+### 🔐 Login Page:
 
-![Login Page](images/login_Page.png "first pic")
+![images](images/login_Page.png)
 
-### ✅ Registration View
+### ✅ Registration View:
 
-![Registration View](images/registration_interface.png "second pic")
+![images](images/registration_interface.png)
 
-### 📩 OTP Verification
+### 📩 OTP Verification:
 
-![OTP Verification](images/OTP_verification_page.png "third pic")
+![images](images/OTP_verification_page.png)
 
-### ✅ Dashboard View
+### ✅ Dashboard View:
 
-![Dashboard View](images/Dashboard_view.png "fourth pic")
+![images](images/Dashboard_view.png)
 
 ## 📄 License
-
-Made by Akash.
 
 MIT License – use freely with attribution.

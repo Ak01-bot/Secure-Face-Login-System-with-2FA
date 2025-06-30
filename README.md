@@ -219,19 +219,19 @@ Built for academic + practical learning use.
 
 ### 🔐 Login Page:
 
-![Login Page](images/readme/login_page.png)
+![1751265343355](image/README/1751265343355.png)
 
 ### ✅ Registration View:
 
-![Registration View](images/readme/registration_interface.png)
+![1751265366214](image/README/1751265366214.png)
 
 ### 🧾 OTP Verification:
 
-![OTP Verification](images/readme/otp_verification_page.png)
+![1751265380237](image/README/1751265380237.png)
 
 ### ✅ Dashboard View:
 
-![Dashboard View](images/readme/dashboard_view.png)
+![1751265394857](image/README/1751265394857.png)
 
 ## 📄 License
 

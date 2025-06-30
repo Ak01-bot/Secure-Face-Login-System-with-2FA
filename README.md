@@ -216,21 +216,22 @@ Built for academic + practical learning use.
 
 ## Snapshots
 
+
 ### 🔐 Login Page:
 
-![images](images/README/login_page.png)
+![Login Page](images/readme/login_page.png)
 
 ### ✅ Registration View:
 
-![images](images/README/registration_interface.png)
+![Registration View](images/readme/registration_interface.png)
 
-### 📩 OTP Verification:
+### 🧾 OTP Verification:
 
-![images](images/README/OTP_verification_page.png)
+![OTP Verification](images/readme/otp_verification_page.png)
 
 ### ✅ Dashboard View:
 
-![images](images/README/Dashboard_view.png)
+![Dashboard View](images/readme/dashboard_view.png)
 
 ## 📄 License
 
